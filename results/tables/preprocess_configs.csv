@@ -1,0 +1,7 @@
+name,normalize,lowercase,emoticon,emoji,reduce_repeat,teencode,segment,stopwords
+P0_raw,False,True,none,keep,False,False,False,False
+P1_normalize,True,True,token,keep,True,False,False,False
+P2_+teencode,True,True,token,keep,True,True,False,False
+P3_+segment,True,True,token,keep,True,True,True,False
+P4_+stopwords,True,True,token,keep,True,True,True,True
+P5_-emoji/emoticon,True,True,remove,remove,True,True,True,False

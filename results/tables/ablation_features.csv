@@ -1,0 +1,16 @@
+feature,model,best_hp,val_macro_f1,val_accuracy
+word_1-1,MultinomialNB,"{""alpha"": 0.05}",0.44547057762632264,0.5408163265306123
+word_1-1,LogReg,"{""C"": 1, ""class_weight"": ""balanced""}",0.5253221667952755,0.5510204081632653
+word_1-1,LinearSVC,"{""C"": 0.5, ""class_weight"": null}",0.5379448161259472,0.5903790087463557
+word_1-2,MultinomialNB,"{""alpha"": 0.01}",0.4729815147662628,0.5393586005830904
+word_1-2,LogReg,"{""C"": 20, ""class_weight"": ""balanced""}",0.569290642058943,0.6020408163265306
+word_1-2,LinearSVC,"{""C"": 1.0, ""class_weight"": ""balanced""}",0.5576315702915446,0.597667638483965
+word_1-3,MultinomialNB,"{""alpha"": 0.01}",0.4829412811862004,0.543731778425656
+word_1-3,LogReg,"{""C"": 10, ""class_weight"": ""balanced""}",0.5636716979558468,0.5991253644314869
+word_1-3,LinearSVC,"{""C"": 0.5, ""class_weight"": ""balanced""}",0.5551263441736316,0.5947521865889213
+char_2-5,MultinomialNB,"{""alpha"": 0.01}",0.522261933007941,0.5583090379008746
+char_2-5,LogReg,"{""C"": 5, ""class_weight"": ""balanced""}",0.5313418113499503,0.5685131195335277
+char_2-5,LinearSVC,"{""C"": 1.0, ""class_weight"": ""balanced""}",0.525153826341222,0.5612244897959183
+word_1-2+char_2-5,MultinomialNB,"{""alpha"": 0.01}",0.5402663596902434,0.5787172011661808
+word_1-2+char_2-5,LogReg,"{""C"": 10, ""class_weight"": ""balanced""}",0.5618697238219202,0.597667638483965
+word_1-2+char_2-5,LinearSVC,"{""C"": 1.0, ""class_weight"": ""balanced""}",0.5619108292193005,0.5962099125364432

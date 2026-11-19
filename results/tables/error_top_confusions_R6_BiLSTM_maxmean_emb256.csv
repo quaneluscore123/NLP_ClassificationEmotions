@@ -1,0 +1,11 @@
+model,true,pred,count
+R6_BiLSTM_maxmean_emb256,Other,Disgust,26
+R6_BiLSTM_maxmean_emb256,Enjoyment,Other,25
+R6_BiLSTM_maxmean_emb256,Disgust,Anger,22
+R6_BiLSTM_maxmean_emb256,Other,Enjoyment,22
+R6_BiLSTM_maxmean_emb256,Enjoyment,Disgust,19
+R6_BiLSTM_maxmean_emb256,Other,Sadness,14
+R6_BiLSTM_maxmean_emb256,Sadness,Other,13
+R6_BiLSTM_maxmean_emb256,Disgust,Other,13
+R6_BiLSTM_maxmean_emb256,Other,Surprise,12
+R6_BiLSTM_maxmean_emb256,Enjoyment,Sadness,12
