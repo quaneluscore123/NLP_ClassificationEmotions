@@ -1,0 +1,13 @@
+# Phiên bản đã dùng để tạo kết quả trong results/ (Python 3.12.2, Windows 11, CPU)
+numpy==2.2.6
+pandas==3.0.3
+scikit-learn==1.9.1
+tensorflow==2.21.0
+pyvi==0.1.1
+matplotlib==3.10.7
+pyarrow>=15
+joblib
+nbformat
+nbclient
+ipykernel
+python-docx==1.2.0
