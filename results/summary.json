@@ -1,0 +1,77 @@
+{
+  "cleaning": {
+    "train_empty_removed": 0,
+    "valid_empty_removed": 0,
+    "test_empty_removed": 0,
+    "train_exact_dup_removed": 3,
+    "train_conflicting_label_removed": 1,
+    "valid_overlap_with_train": 1,
+    "test_overlap_with_train": 0
+  },
+  "best_preprocess": "P2_+teencode",
+  "baseline_selection": {
+    "MultinomialNB": {
+      "feature": "word_1-2+char_2-5",
+      "hp": {
+        "alpha": 0.01
+      },
+      "val_macro_f1": 0.5402663596902434
+    },
+    "LogReg": {
+      "feature": "word_1-2",
+      "hp": {
+        "C": 20,
+        "class_weight": "balanced"
+      },
+      "val_macro_f1": 0.569290642058943
+    },
+    "LinearSVC": {
+      "feature": "word_1-2+char_2-5",
+      "hp": {
+        "C": 1.0,
+        "class_weight": "balanced"
+      },
+      "val_macro_f1": 0.5619108292193005
+    }
+  },
+  "best_rnn": "R6_BiLSTM_maxmean_emb256",
+  "ensemble": {
+    "name": "Ensemble LogReg+BiLSTM_maxmean_emb256",
+    "w_logreg": 1.0
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "bootstrap": [
+    {
+      "mean_diff": 0.06182674509155989,
+      "ci95_low": 0.021388200287073344,
+      "ci95_high": 0.1019846738414775,
+      "p_B_not_better": 0.002,
+      "A": "TF-IDF+MultinomialNB",
+      "B": "TF-IDF+LogReg"
+    },
+    {
+      "mean_diff": -0.0690285153634775,
+      "ci95_low": -0.1070626644283836,
+      "ci95_high": -0.02813284196938911,
+      "p_B_not_better": 1.0,
+      "A": "TF-IDF+LogReg",
+      "B": "R6_BiLSTM_maxmean_emb256 (seed 42)"
+    }
+  ],
+  "runtime_min": 27.4,
+  "env": {
+    "python": "3.12.2",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.2.6",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "pyvi": "0.1.1",
+    "matplotlib": "3.10.7",
+    "seed": 42
+  }
+}

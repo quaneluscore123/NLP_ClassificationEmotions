@@ -1,0 +1,13 @@
+preprocess,model,best_hp,val_macro_f1,val_accuracy
+P0_raw,MultinomialNB,"{""alpha"": 0.01}",0.4739121434324964,0.5349854227405247
+P0_raw,LogReg,"{""C"": 5, ""class_weight"": ""balanced""}",0.568099117505273,0.5932944606413995
+P1_normalize,MultinomialNB,"{""alpha"": 0.01}",0.4627227716979388,0.5291545189504373
+P1_normalize,LogReg,"{""C"": 10, ""class_weight"": ""balanced""}",0.5639486176618135,0.5947521865889213
+P2_+teencode,MultinomialNB,"{""alpha"": 0.01}",0.4729815147662628,0.5393586005830904
+P2_+teencode,LogReg,"{""C"": 20, ""class_weight"": ""balanced""}",0.569290642058943,0.6020408163265306
+P3_+segment,MultinomialNB,"{""alpha"": 0.01}",0.47067945315684556,0.5262390670553936
+P3_+segment,LogReg,"{""C"": 5, ""class_weight"": ""balanced""}",0.5500115891843886,0.5860058309037901
+P4_+stopwords,MultinomialNB,"{""alpha"": 0.01}",0.4666956855511585,0.5174927113702624
+P4_+stopwords,LogReg,"{""C"": 5, ""class_weight"": ""balanced""}",0.5285669600570972,0.5641399416909622
+P5_-emoji/emoticon,MultinomialNB,"{""alpha"": 0.01}",0.4416954410228912,0.4912536443148688
+P5_-emoji/emoticon,LogReg,"{""C"": 20, ""class_weight"": ""balanced""}",0.5190566141271841,0.5466472303206997

@@ -1,0 +1,17 @@
+,text,true,pred_TF-IDF+LogReg,pred_R6_BiLSTM_maxmean_emb256,conf_R6_BiLSTM_maxmean_emb256,case
+15,ổng quay thiệt mà sao chửi ổng thế . không quay sao máy bạn xem được đó :)),Other,Surprise,Surprise,1.0,cả hai sai
+195,đám người lớn văn hóa lùn đẻ ra một đám trẻ vô học . bọn mất dạy này là nhà dột từ nóc ấy mà . nên đuổi học cho lũ ngu học ấy về để nhà tiếp nối sự vô học của gia đình chúng nó,Anger,Disgust,Disgust,1.0,cả hai sai
+137,liên quan gì tới mày . mời đám cưới chắc gì mày đã đi . hỏi hỏi con cặc,Disgust,Anger,Anger,1.0,cả hai sai
+252,cái câu liếm củi chỏ sao sai được nhỉ,Other,Surprise,Surprise,1.0,cả hai sai
+257,đôi khi thích nói chuyện chỉ vì nói chuyện hợp và vì thích nói chuyện chứ thật ra chả phải yêu đương hay thích kiểu trai gái gì,Other,Enjoyment,Enjoyment,0.999,cả hai sai
+458,"cũng nhờ thầy khắt khe uốn nén bỏ thói hư tật xấu , bây giờ mỗi lần họp lớp đều nhắc tới thầy và vô cùng kính trọng",Enjoyment,Disgust,Disgust,0.999,cả hai sai
+406,tiền mất tật mang . xe đã nát rồi giờ còn phải đền cách cửa cho tàu nửa,Sadness,Disgust,Disgust,0.999,cả hai sai
+666,đụ mẹ ngu à :)) có thiếu chỗ đéo nào cho mày viết khôg,Disgust,Anger,Anger,0.999,cả hai sai
+21,hậu duệ mặt trời đấy chứ đùa đâu nhá 😗😗,Other,Enjoyment,Other,0.7,chỉ TF-IDF+LogReg sai
+31,kêu gọi thì lói thế thôi chứ dân nó vẫn dùng apple như thường,Other,Disgust,Other,0.73,chỉ TF-IDF+LogReg sai
+33,"từ nay ho , thì phải kiếm chỗ nào nằm tạm",Other,Disgust,Other,0.493,chỉ TF-IDF+LogReg sai
+34,tao đéo ngờ được đây là trường tao :)))),Surprise,Enjoyment,Surprise,0.998,chỉ TF-IDF+LogReg sai
+14,sống 17 năm chưa crush ai bao giờ,Sadness,Sadness,Other,0.676,chỉ R6_BiLSTM_maxmean_emb256 sai
+16,thần kinh cái đầu mày …,Disgust,Disgust,Other,0.395,chỉ R6_BiLSTM_maxmean_emb256 sai
+19,mệt vãi .. mà cừời cũng vãi ??????,Enjoyment,Enjoyment,Disgust,0.917,chỉ R6_BiLSTM_maxmean_emb256 sai
+23,đứa nào bị táo bón thâm niên cứ ra cầu này mà nhảy đảm bảo hiệu quả ngay lần đầu trải nghiệm 🤣🤣🤣,Enjoyment,Enjoyment,Disgust,0.869,chỉ R6_BiLSTM_maxmean_emb256 sai

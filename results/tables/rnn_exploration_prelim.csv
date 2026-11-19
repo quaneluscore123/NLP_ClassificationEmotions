@@ -1,0 +1,9 @@
+trial,preprocess,config_change,seed,val_macro_f1,best_epoch
+BiLSTM last-state (mặc định),P3_+segment,-,42,0.5074,11
+LSTM 1 chiều,P3_+segment,bidirectional=False,42,0.4899,11
+BiLSTM last-state,P2_+teencode,input âm tiết,42,0.5005,6
+BiLSTM max+mean pooling,P3_+segment,pooling=maxmean,42,0.4710,5
+BiLSTM max+mean pooling,P2_+teencode,pooling=maxmean,42,0.5116,8
+BiLSTM max+mean nhỏ hơn,P2_+teencode,units=32 emb=100 spatial_dropout=0.3,42,0.4824,11
+BiLSTM max+mean + L2,P2_+teencode,l2=1e-5,42,0.4985,7
+BiLSTM max+mean lr thấp,P2_+teencode,lr=5e-4 batch=64,42,0.5072,14

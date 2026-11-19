@@ -1,0 +1,11 @@
+model,true,pred,count
+TF-IDF+LogReg,Other,Disgust,24
+TF-IDF+LogReg,Other,Enjoyment,23
+TF-IDF+LogReg,Enjoyment,Other,21
+TF-IDF+LogReg,Disgust,Enjoyment,20
+TF-IDF+LogReg,Enjoyment,Disgust,15
+TF-IDF+LogReg,Anger,Disgust,12
+TF-IDF+LogReg,Surprise,Enjoyment,11
+TF-IDF+LogReg,Sadness,Disgust,11
+TF-IDF+LogReg,Disgust,Anger,11
+TF-IDF+LogReg,Other,Sadness,10
