@@ -30,7 +30,8 @@ và phương án đối chứng **(Bi)LSTM bằng TensorFlow/Keras**.
   - giữ emoji/emoticon và chuẩn hóa teencode có ích;
   - tách từ (pyvi) và loại stopwords làm giảm kết quả trên văn bản mạng xã hội.
 
-Số liệu đầy đủ: [results/tables/final_comparison_test.csv](results/tables/final_comparison_test.csv); phân tích chi tiết trong báo cáo.
+Số liệu đầy đủ: [results/tables/final_comparison_test.csv](results/tables/final_comparison_test.csv); phân tích chi tiết trong báo cáo
+[report/NLP_BTL_Nhom5.pdf](report/NLP_BTL_Nhom5.pdf).
 
 ## 3. Dữ liệu
 
@@ -74,8 +75,8 @@ NLP_ClassificationEmotions/
 ├── models/                    # mô hình đã huấn luyện cho demo (sinh bởi run_all.py, không commit)
 └── report/
     ├── build_report.py        # sinh báo cáo từ results/
-    ├── NLP_BTL_MaNhom.docx
-    └── NLP_BTL_MaNhom.pdf
+    ├── NLP_BTL_Nhom5.docx
+    └── NLP_BTL_Nhom5.pdf      # báo cáo nộp
 ```
 
 ## 5. Môi trường
@@ -88,7 +89,8 @@ NLP_ClassificationEmotions/
 pip install -r requirements.txt
 ```
 
-Trên **Google Colab**: clone repository, chạy `pip install -r requirements.txt`, rồi mở notebook. Notebook tự nhận thư mục dự án.
+Trên **Google Colab**: [mở notebook bằng Colab](https://colab.research.google.com/github/quaneluscore123/NLP_ClassificationEmotions/blob/quan/notebooks/NLP_BTL_UIT_VSMEC.ipynb),
+bỏ comment cell cài đặt đầu tiên (clone repository và `pip install -r requirements.txt`) rồi chạy từ trên xuống.
 
 ## 6. Các bước chạy lại từ đầu
 
@@ -104,7 +106,7 @@ python demo.py               # chế độ tương tác
 # 3) Notebook trình bày (đọc lại kết quả; đặt RUN_FULL=True để chạy lại từ đầu)
 jupyter notebook notebooks/NLP_BTL_UIT_VSMEC.ipynb
 
-# 4) Sinh lại báo cáo Word/PDF từ results/
+# 4) Sinh lại bản nháp báo cáo Word từ results/ (bản nộp cuối là report/NLP_BTL_Nhom5.pdf, đã được nhóm chỉnh sửa)
 python report/build_report.py
 ```
 
