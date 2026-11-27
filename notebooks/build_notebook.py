@@ -29,9 +29,9 @@ Pipeline: *dữ liệu thô → khảo sát/tiền xử lý → biểu diễn (T
 Mã nguồn chi tiết nằm trong thư mục `src/`; notebook này gọi lại các hàm đó và hiển thị kết quả.
 """)
 
-md("## 0. Cài đặt môi trường\nTrên Google Colab: bỏ comment các dòng dưới (thay URL repo của nhóm).")
+md("## 0. Cài đặt môi trường\nTrên Google Colab: bỏ comment 3 dòng đầu của cell dưới để tải mã nguồn và cài thư viện ([mở notebook bằng Colab](https://colab.research.google.com/github/quaneluscore123/NLP_ClassificationEmotions/blob/quan/notebooks/NLP_BTL_UIT_VSMEC.ipynb)).")
 code("""
-# !git clone <URL_REPO_CUA_NHOM> NLP_ClassificationEmotions
+# !git clone https://github.com/quaneluscore123/NLP_ClassificationEmotions.git
 # %cd NLP_ClassificationEmotions
 # !pip install -q -r requirements.txt
 import os, sys, json
